@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>Navigassi Website Design</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,100;1,200;1,300;1,400;1,700&display=swap" rel="stylesheet">
+     <link rel="stylsheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html>">            
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="">HOME</a></li>   
+              <li><a href="campus.html">COURSE</a></li>
+              <li><a href="campus.html">ABOUT</a></li>  
+              <li><a href="contact.html">CONTACT</a></li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+ <div class="col-md-6">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="poooooot.jpg" class="d-block w-100" alt="..."height="500px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="text-box">
+    <h1>Hallo !! Saya Devinta</h1>
+    <p>selamat datang di profil website Saya</p>
+    <a href=""class="hero-btn">Visit Us to know More</a>
+</div>
+
+</section>
+
+<!------ Course ------->
+<section class="course">
+  <h1>Course We offer</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="row">
+    <div class="course-col">
+      <h3>Kemampuan, Bakat, dan Hobby</h3>
+      <p>- Menggambar<br>- Design Graphic<br>- Bulu Tangkis<br>- Pencak Silat</p>
+    </div>
+    <div class="course-col">
+      <h3>Pengalaman</h3>
+      <p>- 2017 :mengikuti lomba menggambar<br>- 2018 :Juara 3 Bulu Tangkis<br>- 2019 : Juara 3 O2SN Bulu Tangkis<br>- 2020 : mMengikuti lomba pencak silat<br>- 2022 : mengikuti lomba robotik</p>
+    </div>
+    <div class="course-col">
+      <h3>Pendidikan</h3>
+      <p>2013-2018 : SDN Rejowinangun<br>2018-2021 : SMPN 1 Trenggalek<br>2021-sekarang : SMK Telkom Malang</p>
+    </div>
+  </div>
+
+</section>
+
+<!------- campus ------>
+
+<section class="campus">
+  <h1>Debian Report</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="row">
+    <div class="campus-col">
+      <img src="oren.jpg">
+      <div class="layer">
+      <a class="button" a href="https://drive.google.com/file/d/1MBTBu3S_BE36KPDd_EXd-IhQcE0aah50/view?usp=sharing"><h3>DNS Server Bind9</h3></a>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="putih.jpg">
+      <div class="layer">
+        <a class="button" a href="https://drive.google.com/file/d/1DI_GysIUDVEIldPTH8pKLirqR7NSLmAX/view?usp=sharing"><h3>Remote Server</h3></a>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="putihorenn.jpg">
+      <div class="layer">
+        <a href="https://drive.google.com/file/d/1a7hSXSSrZFVST_RqemuvXtIyi5wOx4-G/view?usp=sharing"><h3>Konfigurasi Server</h3></a>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="hitam.jpg">
+      <div class="layer">
+        <a href="https://drive.google.com/file/d/16SXN_hvSxVvt0gC9kQVZQteH1-2suNhB/view?usp=sharing"><h3>Konfigurasi Web Server</h3></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!------ call to action ------->
+
+<section class="cta">
+   <h1>Enroll For Our Various Onine Corses<br>Anywhere From The World</h1>
+   <a href="https://wa.me/081252410474/?text=Hello" class="hero-btn">CONTACT US</a>
+</section>
+
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
